@@ -1,29 +1,27 @@
-# TerraformBeginnerProject
-Simple beginner terraform project using SSH key pair,creating EC2 instance on Ubuntu with "Hello World".
+# TerraformDockerProject
+Simple terraform project using Docker,creating docker container.
 
 ## 💻 Topics
 
 Integrated with:
 
-- [x] https://aws.amazon.com/
+- [x] https://www.docker.com/
 - [x] https://www.terraform.io/
       
 ## 💻 Pre-requisites
 
-Before you use this project you need to have Terraform installed in your computer and have an account on AWS,and export AWS Access Keys to your terminal.
+Before you use this project you need to have Terraform and a Docker Desktop installed in your compute.
 
 ### Git clone
 This will clone the project,install Terraform which is required to run the test.
 ```
-$ git clone https://github.com/Kar1stan/TerraformBeginnerProject.git
-$ cd TerraformBeginnerProject
+$ git clone https://github.com/Kar1stan/TerraformDockerProject.git
+$ cd TerraformDockerProject
 ```
 
 ## 🚀 Run the project: 
 If you want run the project open the terminal and run: 
 ```
-$ export AWS_ACCESS_KEY_ID=45trEayUUu1(example)
-$ export AWS_SECRET_ACCESS_KEY=45trEayUUu1(example)
 $ terraform init
 $ terraform apply
 ```
@@ -31,4 +29,4 @@ If you want to destroy your resources in AWS open the terminal and run:
 ```
 $ terraform destroy 
 ```
-For further help or additional errors [here]([https://webdriver.io/docs/gettingstarted](https://developer.hashicorp.com/terraform/tutorials/aws-get-started))
+For further help or additional errors [here]([https://developer.hashicorp.com/terraform/tutorials/docker-get-started])
